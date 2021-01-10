@@ -1,47 +1,35 @@
 {
-    "Profile": [
+    
+    "Pages": [
          {
          "name": "profile",
          "content": "Hier kunt u alle persoonlijke gegevens terugvinden van mij!",
          "icon": ["id-card"]
-         }
+         },
 
-    ],
-    
-    "Opledingen" : [
-        {
+         {
             "name": "opleidingen",
             "content": "Hier kunt u alle opleidingen en cursussen zien die ik heb gevolgd!",
             "icon": ["graduate"]
-        }
-    
-    ],
-
-    "Werkervaring": [
+        },
         {
-        "name": "werkervaring",
-        "content": "Hier kunt u alle werkervaringen zien die ik al heb ervaren!",
-        "icon": ["workexperience"]
-        }
-    ],
-
-    "Portfolio" : [
+            "name": "werkervaring",
+            "content": "Hier kunt u alle werkervaringen zien die ik al heb ervaren!",
+            "icon": ["workexperience"]
+        },
         {
             "name": "portfolio",
             "content": "Hier kunt u alle toekomsitge projecten zien, maar ook die dat nog in development zijn. Hier krijgt u ook meer informatie over mijn doelen en mijn persoonlijk leven terugvinden.",
-            "icon": ["Sheego1", "Sheego2"]
-        }
-    
-    ],
-
-    "ContactMe" : [
+            "icon": ["portfolio"]
+        },
         {
             "name": "contact me",
             "content": "Als u mij wilt contacteren kunt u dat hieren doen!",
-            "icon": ["Sheego1", "Sheego2"]
+            "icon": ["phone-book"]
         }
-    
+
     ]
+    
     
     
 
