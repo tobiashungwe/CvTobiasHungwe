@@ -1,0 +1,161 @@
+/*---------------------*/
+/*    HTML ELEMENTS    */
+/*---------------------*/
+@font-face {
+    font-family: "Top Modern";
+    src: url(../css/fonts/Top\ Modern.ttf);
+    
+  }
+
+body {
+    width: 100%;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+/*---------------------*/
+/* CONTAINING ELEMENTS */
+/*---------------------*/
+nav 
+{
+    width: 70%;
+    height: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: 25% auto
+}
+nav div
+{
+  grid-column: auto;
+  
+}
+nav div img {
+    width: 60%;
+    height: auto;
+    position: sticky;
+}
+
+nav div div a:first-of-type{
+    margin-left: 0.005%;
+}
+nav div div a {
+    margin-right: 5%;
+    font-family: 'Top Modern';
+    text-decoration-line: none;
+    color: #2d5f93 ;
+    font-size: 125%;
+}
+nav div div a:hover {
+    color: grey;
+}
+
+header {
+    width: unset;
+    background-color: #89cff0;
+    height: 60vh;
+}
+
+
+header div img {
+    padding-top: 8%;
+    padding-bottom: 8%;
+    height: fit-content;
+    width: inherit;
+    size: 20%;
+  
+
+}
+
+
+
+/*------------------------*/
+/* PAGE SPECIFIC ELEMENTS */
+/*------------------------*/
+
+#navRightContainer
+{
+    
+    position: relative;
+    width: 100%;
+    margin-inline-end: 5%;
+    margin-inline-start: 5%;
+    
+}
+#navVertical-center {
+    
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#blueBackground {
+    background-color: #89cff0;
+    height: 4vh;
+}
+
+.flexContainer{
+    display: flex;
+    width: 50vh;
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.flexContainer > div {
+    color: whitesmoke;
+    padding: 10% 10%;
+    width: unset;
+    word-wrap:normal;
+    font-size: 2vw;
+    position:absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 55%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.flexContainer > div > h1 {
+    width: 20.833333333333332vw;
+    padding-bottom: 2%;
+}
+
+.flexContainer > div > p {
+    font-style: italic;
+}
+
+#boxHeader
+{
+    background:whitesmoke;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #2d5f93;
+    border-width:medium;
+    border-style: solid;
+    padding: 1%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #2d5f93;
+    text-align: center;
+    font-size:larger;
+  
+
+}
+#boxHeader > p > a 
+{
+    text-decoration: none;
+    color: #2d5f93;
+    
+}
+#boxHeader > p > a:hover
+{
+    font-weight: bold;
+}
+/* --- Home --- */
+
